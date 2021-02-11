@@ -24,17 +24,12 @@ rust_library {
 }
 
 // dependent_library ["feature_list"]
-//   futures-core-0.3.8 "alloc,std"
-//   futures-task-0.3.8 "alloc,once_cell,std"
-//   futures-util-0.3.8 "alloc,slab,std"
-//   libc-0.2.80 "default,std"
+//   futures-core-0.3.12 "alloc,std"
+//   futures-task-0.3.12 "alloc,once_cell,std"
+//   futures-util-0.3.12 "alloc,slab,std"
+//   libc-0.2.86 "default,std"
 //   num_cpus-1.13.0
 //   once_cell-1.5.2 "alloc,std"
-//   pin-project-1.0.2
-//   pin-project-internal-1.0.2
+//   pin-project-lite-0.2.4
 //   pin-utils-0.1.0
-//   proc-macro2-1.0.24 "default,proc-macro"
-//   quote-1.0.7 "default,proc-macro"
 //   slab-0.4.2
-//   syn-1.0.53 "clone-impls,default,derive,full,parsing,printing,proc-macro,quote,visit-mut"
-//   unicode-xid-0.2.1 "default"
