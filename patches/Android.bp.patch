@@ -2,9 +2,9 @@ diff --git a/Android.bp b/Android.bp
 index 8b0a7f0..0f6408c 100644
 --- a/Android.bp
 +++ b/Android.bp
-@@ -15,6 +15,10 @@ rust_library {
-         "libfutures_task",
+@@ -56,6 +56,10 @@ rust_library {
          "libfutures_util",
+         "libnum_cpus",
      ],
 +    apex_available: [
 +        "//apex_available:platform",
