@@ -63,9 +63,10 @@ rust_library {
 }
 
 // dependent_library ["feature_list"]
-//   futures-core-0.3.14 "alloc,std"
-//   futures-task-0.3.14 "alloc,std"
-//   futures-util-0.3.14 "alloc,slab,std"
+//   autocfg-1.0.1
+//   futures-core-0.3.15 "alloc,std"
+//   futures-task-0.3.15 "alloc,std"
+//   futures-util-0.3.15 "alloc,slab,std"
 //   libc-0.2.94 "default,std"
 //   num_cpus-1.13.0
 //   pin-project-lite-0.2.6
