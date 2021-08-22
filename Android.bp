@@ -58,16 +58,19 @@ rust_library {
     ],
     apex_available: [
         "//apex_available:platform",
+        "com.android.resolv",
         "com.android.virt",
     ],
+    min_sdk_version: "29",
 }
 
 // dependent_library ["feature_list"]
-//   futures-core-0.3.14 "alloc,std"
-//   futures-task-0.3.14 "alloc,std"
-//   futures-util-0.3.14 "alloc,slab,std"
-//   libc-0.2.94 "default,std"
+//   autocfg-1.0.1
+//   futures-core-0.3.16 "alloc,std"
+//   futures-task-0.3.16 "alloc,std"
+//   futures-util-0.3.16 "alloc,slab,std"
+//   libc-0.2.98 "default,std"
 //   num_cpus-1.13.0
-//   pin-project-lite-0.2.6
+//   pin-project-lite-0.2.7
 //   pin-utils-0.1.0
-//   slab-0.4.3 "default,std"
+//   slab-0.4.4 "default,std"
