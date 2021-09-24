@@ -43,6 +43,8 @@ rust_library {
     name: "libfutures_executor",
     host_supported: true,
     crate_name: "futures_executor",
+    cargo_env_compat: true,
+    cargo_pkg_version: "0.3.17",
     srcs: ["src/lib.rs"],
     edition: "2018",
     features: [
@@ -63,14 +65,3 @@ rust_library {
     ],
     min_sdk_version: "29",
 }
-
-// dependent_library ["feature_list"]
-//   autocfg-1.0.1
-//   futures-core-0.3.16 "alloc,std"
-//   futures-task-0.3.16 "alloc,std"
-//   futures-util-0.3.16 "alloc,slab,std"
-//   libc-0.2.98 "default,std"
-//   num_cpus-1.13.0
-//   pin-project-lite-0.2.7
-//   pin-utils-0.1.0
-//   slab-0.4.4 "default,std"
