@@ -102,7 +102,10 @@ fn thread_yield_multi_thread(b: &mut Bencher) {
     });
 
     b.iter(move || {
-        let y = Yield { rem: NUM, tx: tx.clone() };
+        let y = Yield {
+            rem: NUM,
+            tx: tx.clone(),
+        };
 
         block_on(y);
     });
